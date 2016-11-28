@@ -44,5 +44,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+#adds devise gem for sessions and auth
+gem 'devise'
+#adds bootstrap to devise forms
+gem 'devise-bootstrapped', github: 'king601/devise-bootstrapped'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
