@@ -1,6 +1,9 @@
 # Email-Picker
 
 Devise gem
+-built for authentication and authorization
+-has confirmation_tokens
+
 devise-bootstrapped
 
 This README would normally document whatever steps are necessary to get the
