@@ -1,2 +1,2 @@
-module TokenHelper
+module TokensHelper
 end
