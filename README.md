@@ -1,30 +1,15 @@
-# Email-Picker
+# Email Picker app
+## Using Ruby on Rails & the Devise gem
+by Misha LeClair
 
-Devise gem
--built for authentication and authorization
--has confirmation_tokens
+# Objective
+I wanted to create an app to explore using tokens for user credentials. I wanted to investigate the Devise gem to see if this was a good option.
 
-devise-bootstrapped
+### Why Devise?
+It is built for authentication and authorization.
+It offers confirmation tokens.
+Excellent documentation.
+Seemingly seamless integration if you start with the gem early on in your build.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Takeaways
+Devise is an easy way to spin up an app with sessions and auth quickly in place. For my purposes it came with so much that it was way more than I needed. If you are spinning up a large app, it seems like a great approach for logins and sessions.
